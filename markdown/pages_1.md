@@ -2,7 +2,7 @@ Title: About
 
 ## cad2019
 
-課程倉儲: <a href="https://github.com/chiamingyen/cmsimfly">https://github.com/chiamingyen/cmsimfly</a>
+期中報告影片: <a href="https://www.youtube.com/watch?v=lFMUswdMn7M">https://www.youtube.com/watch?v=lFMUswdMn7M</a>
 
 內容管理: <a href="https://chiamingyen.github.io/cmsimfly/">https://chiamingyen.github.io/cmsimfly/</a>
 
