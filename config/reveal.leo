@@ -238,9 +238,9 @@ vertical: body pane on the botton</t>
 						
 </t>
 <t tx="leo.20191107174841.2"># [Week3~5](https://s40723207.github.io/cad2019/content/Week2~Week5.html)
-* #### Week3:編譯Solvesoace
-* #### week4:自主練習
-* #### week5:第一次自評與Solvesoace繪圖</t>
+* ### Week3:編譯Solvesoace
+* ### week4:自主練習
+* #### week5:第一次自評互評與Solvesoace繪圖</t>
 <t tx="leo.20191108113203.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -266,7 +266,8 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20191108113414.2"># [Week7](https://s40723207.github.io/cad2019/content/Week6~Week9.html)
 * ### 將SOLVESPACE編入學號
-* ### SOLVESPACE繪圖認證</t>
+* ### SOLVESPACE繪圖認證
+* ### 第2次自評互評</t>
 <t tx="leo.20191108113609.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
