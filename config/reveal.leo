@@ -51,6 +51,9 @@
 <v t="leo.20200109141917.1"><vh>week16</vh>
 <v t="leo.20200109141917.2"><vh>投影片快捷鍵</vh></v>
 </v>
+<v t="leo.20200109144711.1"><vh>week17</vh>
+<v t="leo.20200109144711.2"><vh>投影片快捷鍵</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -376,5 +379,18 @@ vertical: body pane on the botton</t>
 <t tx="leo.20200109141922.2"># [Week15](https://s40723207.github.io/cad2019/content/Week15~Week18.html)
 課堂學習成果報告
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/DyHHvovDq_0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200109144711.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200109144711.2"># [Week17](https://s40723207.github.io/cad2019/content/Week15~Week18.html)
+* ### 翻譯網頁
+* ### 課堂測驗
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/mtHohH9Z64M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>

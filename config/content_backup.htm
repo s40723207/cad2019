@@ -187,15 +187,45 @@
 <div class="source-footer">
 <div class="speech-wrap source-or-target-footer-button left-positioned">
 <div aria-disabled="true" aria-label="請選擇一種要啟用語音輸入的特定語言" aria-pressed="false" class="speech-button goog-toolbar-button goog-toolbar-button-disabled" data-tooltip="請選擇一種要啟用語音輸入的特定語言" data-tooltip-align="t,c" id="gt-speech" role="button"><span class="" title="">上面形狀的問題是，由於其中包含孔，我們無法很好地簡化它。</span> <span class="" title="">因此，我們必須通過形狀編輯模式進行更複雜的處理，在該模式下，我們可以提取邏輯上屬於同一凸形子實體的單個元素。</span> <span class="" title="">此過程可能需要進行多次迭代：我們首先提取3個近似凸元素。</span> <span class="" title="">現在，我們忽略作為兩個孔的一部分的三角形。</span> <span class="" title="">在形狀編輯模式下編輯形狀時，可以方便地切換可見性圖層，以查看其他場景項所覆蓋的內容。</span><br/><span class="jfk-button-img"></span></div>
+<div aria-disabled="true" aria-label="請選擇一種要啟用語音輸入的特定語言" aria-pressed="false" class="speech-button goog-toolbar-button goog-toolbar-button-disabled" data-tooltip="請選擇一種要啟用語音輸入的特定語言" data-tooltip-align="t,c" role="button"><span class="" title=""><img alt="" height="303" src="http://www.coppeliarobotics.com/helpFiles/en/images/modelTut7.jpg" width="640"/></span></div>
 <div aria-disabled="true" aria-label="請選擇一種要啟用語音輸入的特定語言" aria-pressed="false" class="speech-button goog-toolbar-button goog-toolbar-button-disabled" data-tooltip="請選擇一種要啟用語音輸入的特定語言" data-tooltip-align="t,c" role="button"><span class="" title=""></span></div>
+<div aria-disabled="true" aria-label="請選擇一種要啟用語音輸入的特定語言" aria-pressed="false" class="speech-button goog-toolbar-button goog-toolbar-button-disabled" data-tooltip="請選擇一種要啟用語音輸入的特定語言" data-tooltip-align="t,c" role="button">
+<div class="tlid-input input">
+<div class="source-wrap">
+<div class="input-full-height-wrapper tlid-input-full-height-wrapper">
+<div class="source-input">
+<div class="source-footer-wrap source-or-target-footer">
+<div class="source-footer">
+<div aria-disabled="false" aria-hidden="false" aria-label="聆聽" aria-pressed="false" class="src-tts left-positioned ttsbutton jfk-button-flat source-or-target-footer-button jfk-button" data-tooltip="聆聽" data-tooltip-align="t,c" role="button" tabindex="0"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="tlid-results-container results-container">
+<div class="tlid-result result-dict-wrapper">
+<div class="result tlid-copy-target">
+<div class="result-header">
+<div aria-label="收藏翻譯" class="starbutton jfk-button-flat jfk-button unstarred" data-tooltip="收藏翻譯" data-tooltip-align="t,c" role="button" tabindex="0">
+<div class="jfk-button-img"></div>
+</div>
+</div>
+<div class="text-wrap tlid-copy-target">
+<div class="result-shield-container tlid-copy-target" tabindex="0"><span class="tlid-translation translation" lang="zh-TW"><span class="" title="">我們最終得到三個形狀的總和，但是其中兩個將需要進一步改進。</span> <span title="">現在我們可以刪除作為孔的一部分的三角形。</span> <span class="" title="">最後我們分別提取3種形狀的凸包，然後將其與[<span>Menu bar --&gt; Edit --&gt; Grouping/Merging --&gt; merge selected shapes</span>]合併在一起：</span></span></div>
+<div class="result-shield-container tlid-copy-target" tabindex="0"><span class="tlid-translation translation" lang="zh-TW"><span class="" title=""><img alt="" height="306" src="http://www.coppeliarobotics.com/helpFiles/en/images/modelTut8.jpg" width="640"/></span></span></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div aria-disabled="true" aria-label="請選擇一種要啟用語音輸入的特定語言" aria-pressed="false" class="speech-button goog-toolbar-button goog-toolbar-button-disabled" data-tooltip="請選擇一種要啟用語音輸入的特定語言" data-tooltip-align="t,c" role="button"><span class="" title="">在CoppeliaSim中，我們可以啟用/禁用每種形狀的邊緣顯示。我們還可以指定邊緣顯示時要考慮的角度。相似的參數是陰影角，它指示形狀將在多方面顯示。這些參數以及其他一些參數（例如形狀顏色）可以在形狀屬性中進行調整。請記住，形狀有多種風味。到目前為止，在本教程中，我們僅處理簡單的形狀：簡單的形狀具有一組視覺屬性（即一種顏色，一個陰影角度等）。如果合併兩個形狀，則結果將是一個簡單的形狀。您還可以對形狀進行分組，在這種情況下，每個形狀將保留其視覺屬性。<br/><br/>在下一步中，我們可以合併邏輯上屬於一起的元素（如果它們屬於同一剛性元素，並且具有相同的視覺屬性）。然後，我們更改各種元素的視覺屬性。調整具有不同顏色和視覺屬性的幾種形狀的最簡便方法，如果我們使用特定的字符串來命名顏色，則以後可以輕鬆地以編程方式更改該顏色，即使該形狀是複合形狀的一部分。然後，我們選擇所有具有相同視覺屬性的形狀，然後控制選擇已調整的形狀，然後單擊“應用於選擇”，一次是“顏色”，一次是其他屬性，在形狀屬性中：這將轉移所有所選形狀的視覺屬性（如果提供的話，還包括顏色名稱）。我們最終得到17個單獨的形狀：</span></div>
+<div aria-disabled="true" aria-label="請選擇一種要啟用語音輸入的特定語言" aria-pressed="false" class="speech-button goog-toolbar-button goog-toolbar-button-disabled" data-tooltip="請選擇一種要啟用語音輸入的特定語言" data-tooltip-align="t,c" role="button"><span class="" title=""><img alt="" height="268" src="http://www.coppeliarobotics.com/helpFiles/en/images/modelTut9.jpg" width="466"/></span></div>
 <div aria-disabled="true" aria-label="請選擇一種要啟用語音輸入的特定語言" aria-pressed="false" class="speech-button goog-toolbar-button goog-toolbar-button-disabled" data-tooltip="請選擇一種要啟用語音輸入的特定語言" data-tooltip-align="t,c" role="button"><span class="" title=""></span></div>
+<div aria-disabled="true" aria-label="請選擇一種要啟用語音輸入的特定語言" aria-pressed="false" class="speech-button goog-toolbar-button goog-toolbar-button-disabled" data-tooltip="請選擇一種要啟用語音輸入的特定語言" data-tooltip-align="t,c" role="button"><span class="" title="">現在，我們可以使用[<span>Menu bar --&gt; Edit --&gt; Grouping/merging -&gt; Group selected shapes</span>]對屬於同一鏈接的形狀進行分組。 我們最終得到7個形狀：機器人的基礎（或機器人的層次結構樹的基礎）和6個移動鏈接。 正確命名對像也很重要：您可以通過雙擊場景層次結構中的對象名稱來做到這一點。 基礎應始終是機械手或模型名稱，其他對象應始終包含基礎對象名稱，例如：robot（基礎），robot_link1，robot_proximitySensor等。通過默認，形狀將分配給可見性層1，但可以 在對象通用屬性中進行更改。 默認情況下，僅激活場景的可見性層1-8。 現在，我們有了以下內容（模型ResizableFloor_5_25模型在模型屬性對話框中暫時不可見）：</span></div>
+<div aria-disabled="true" aria-label="請選擇一種要啟用語音輸入的特定語言" aria-pressed="false" class="speech-button goog-toolbar-button goog-toolbar-button-disabled" data-tooltip="請選擇一種要啟用語音輸入的特定語言" data-tooltip-align="t,c" role="button"><span class="" title=""><img alt="" height="519" src="http://www.coppeliarobotics.com/helpFiles/en/images/modelTut10.jpg" width="656"/></span></div>
 <div aria-disabled="true" aria-label="請選擇一種要啟用語音輸入的特定語言" aria-pressed="false" class="speech-button goog-toolbar-button goog-toolbar-button-disabled" data-tooltip="請選擇一種要啟用語音輸入的特定語言" data-tooltip-align="t,c" role="button"><span class="" title=""></span></div>
-<div aria-disabled="true" aria-label="請選擇一種要啟用語音輸入的特定語言" aria-pressed="false" class="speech-button goog-toolbar-button goog-toolbar-button-disabled" data-tooltip="請選擇一種要啟用語音輸入的特定語言" data-tooltip-align="t,c" role="button"><span class="" title=""></span></div>
-<div aria-disabled="true" aria-label="請選擇一種要啟用語音輸入的特定語言" aria-pressed="false" class="speech-button goog-toolbar-button goog-toolbar-button-disabled" data-tooltip="請選擇一種要啟用語音輸入的特定語言" data-tooltip-align="t,c" role="button"><span class="" title=""></span></div>
-<div aria-disabled="true" aria-label="請選擇一種要啟用語音輸入的特定語言" aria-pressed="false" class="speech-button goog-toolbar-button goog-toolbar-button-disabled" data-tooltip="請選擇一種要啟用語音輸入的特定語言" data-tooltip-align="t,c" role="button"><span class="" title=""></span></div>
-<div aria-disabled="true" aria-label="請選擇一種要啟用語音輸入的特定語言" aria-pressed="false" class="speech-button goog-toolbar-button goog-toolbar-button-disabled" data-tooltip="請選擇一種要啟用語音輸入的特定語言" data-tooltip-align="t,c" role="button"><span class="" title=""></span></div>
-<div aria-disabled="true" aria-label="請選擇一種要啟用語音輸入的特定語言" aria-pressed="false" class="speech-button goog-toolbar-button goog-toolbar-button-disabled" data-tooltip="請選擇一種要啟用語音輸入的特定語言" data-tooltip-align="t,c" role="button"><span class="" title=""></span></div>
-<div aria-disabled="true" aria-label="請選擇一種要啟用語音輸入的特定語言" aria-pressed="false" class="speech-button goog-toolbar-button goog-toolbar-button-disabled" data-tooltip="請選擇一種要啟用語音輸入的特定語言" data-tooltip-align="t,c" role="button"><span class="" title=""></span></div>
+<div aria-disabled="true" aria-label="請選擇一種要啟用語音輸入的特定語言" aria-pressed="false" class="speech-button goog-toolbar-button goog-toolbar-button-disabled" data-tooltip="請選擇一種要啟用語音輸入的特定語言" data-tooltip-align="t,c" role="button"><span class="" title="">創建或修改形狀時，CoppeliaSim將自動設置其參考框架的位置和方向。 形狀的參考框架將始終位於形狀的幾何中心。 將選擇框架方向，以便形狀的邊界框保持盡可能小。 這並不總是看起來不錯，但是我們隨時可以隨時調整形狀的參考框架的方向。 現在，我們可以使用[<span>Menu bar --&gt; Edit --&gt; Reorient bounding box --&gt; with reference frame of world</span>]重新調整所有已創建形狀的參考框架。 您有更多選項可以在形狀幾何對話框中重新定向參考框架。<br/></span></div>
 <div aria-disabled="true" aria-label="請選擇一種要啟用語音輸入的特定語言" aria-pressed="false" class="speech-button goog-toolbar-button goog-toolbar-button-disabled" data-tooltip="請選擇一種要啟用語音輸入的特定語言" data-tooltip-align="t,c" role="button"><span class="" title=""></span></div>
 <div aria-disabled="true" aria-label="請選擇一種要啟用語音輸入的特定語言" aria-pressed="false" class="speech-button goog-toolbar-button goog-toolbar-button-disabled" data-tooltip="請選擇一種要啟用語音輸入的特定語言" data-tooltip-align="t,c" role="button"><span class="" title=""></span></div>
 <div aria-disabled="true" aria-label="請選擇一種要啟用語音輸入的特定語言" aria-pressed="false" class="speech-button goog-toolbar-button goog-toolbar-button-disabled" data-tooltip="請選擇一種要啟用語音輸入的特定語言" data-tooltip-align="t,c" role="button"><span class="" title=""></span></div>
@@ -218,6 +248,9 @@
 </div>
 </div>
 </div>
+</div>
+<div id="gtx-trans" style="position: absolute; left: 405px; top: 6292px;">
+<div class="gtx-trans-icon"></div>
 </div><h1>Note</h1>
 <p>solvespace 常用指令:</p>
 <p>shift+W 建立平面</p>
