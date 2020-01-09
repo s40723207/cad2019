@@ -36,6 +36,21 @@
 <v t="leo.20191108113609.1"><vh>week8</vh>
 <v t="leo.20191108113609.2"><vh>投影片快捷鍵</vh></v>
 </v>
+<v t="leo.20200109140025.1"><vh>week9</vh>
+<v t="leo.20200109140025.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200109141909.1"><vh>week10</vh>
+<v t="leo.20200109141909.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200109141915.1"><vh>week12</vh>
+<v t="leo.20200109141915.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200109141922.1"><vh>week15</vh>
+<v t="leo.20200109141922.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200109141917.1"><vh>week16</vh>
+<v t="leo.20200109141917.2"><vh>投影片快捷鍵</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -299,5 +314,67 @@ vertical: body pane on the botton</t>
 #### [40723210  李承澤](https://s40723210.github.io/cad2019)  [40723236  黃宏裕](https://s40723236.github.io/cad2019)
 #### [40723216  林子欽](https://s40723216.github.io/cad2019)  [40732319  林鉦淯](https://s40732319.github.io/cad2019)
 </t>
+<t tx="leo.20200109140025.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200109140025.2"># [Week9](https://s40723207.github.io/cad2019/blog/cad2019-32-bit-Windows.html)
+期中報告
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/lFMUswdMn7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200109141909.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200109141909.2"># [Week10](https://s40723207.github.io/cad2019/content/Week10~Week14.html)
+* ### 各組偕同倉儲
+* ### [翻譯NX](https://s40723207.github.io/cad2019/content/NX.html)</t>
+<t tx="leo.20200109141915.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200109141915.2"># [Week12~14](https://s40723207.github.io/cad2019/content/Week10~Week14.html)
+* ### Webots Tutorial 1~6 操作
+* ### V-rep bubbleRob tutorial 操作
+* ### [翻譯NX](https://s40723207.github.io/cad2019/content/NX.html)
+* ### NX練習</t>
+<t tx="leo.20200109141917.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200109141917.2"># [Week16](https://s40723207.github.io/cad2019/content/Week15~Week18.html)
+課堂測驗
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/2LTtnS_Lr6o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200109141922.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200109141922.2"># [Week15](https://s40723207.github.io/cad2019/content/Week15~Week18.html)
+課堂學習成果報告
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/DyHHvovDq_0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>
